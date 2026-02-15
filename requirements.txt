@@ -1,0 +1,18 @@
+# Simple KV Cache Eviction - Dependencies
+# 
+# This project uses the LaCache virtual environment.
+# To use these dependencies, activate: source ../LaCache/.venv/bin/activate
+#
+# Core dependencies for KV cache eviction strategies:
+
+torch==2.4.1
+transformers==4.43.4
+flash-attn==2.6.3
+
+# Optional: Block Sparse Flash Attention for sparse attention patterns
+# block-sparse-flash-attention==2.8.3
+
+# Optional: For evaluation and benchmarking
+# datasets>=2.14.0
+# numpy>=1.24.0
+# matplotlib>=3.7.0
